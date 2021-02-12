@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+// import './style.css'
 
 function Search() {
     return (
@@ -12,4 +12,4 @@ function Search() {
     )
 }
 
-export default Search
+export default Search;
