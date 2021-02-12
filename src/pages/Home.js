@@ -1,4 +1,5 @@
-import React, { Component, component } from "react";
+import React, { Component } from "react";
+import Table from '../components/Table';
 import API from "../utils/API";
 
 class Home extends Component {
@@ -16,11 +17,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        {this.state.results.length ? (
-          <Table results={this.state.results} />
-        ) : (
-          ""
-        )}
+        {this.state.results.length ? <Table results={this.state.results}/> : ""}
       </div>
     );
   }
