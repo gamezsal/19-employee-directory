@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/19-employee-directory/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/19-employee-directory/static/js/main.2ff57767.chunk.js",
-    "main.js.map": "/19-employee-directory/static/js/main.2ff57767.chunk.js.map",
-    "runtime-main.js": "/19-employee-directory/static/js/runtime-main.545fb204.js",
-    "runtime-main.js.map": "/19-employee-directory/static/js/runtime-main.545fb204.js.map",
+    "main.js": "/19-employee-directory/static/js/main.64ac3647.chunk.js",
+    "main.js.map": "/19-employee-directory/static/js/main.64ac3647.chunk.js.map",
+    "runtime-main.js": "/19-employee-directory/static/js/runtime-main.3d03b574.js",
+    "runtime-main.js.map": "/19-employee-directory/static/js/runtime-main.3d03b574.js.map",
     "static/css/2.150d169a.chunk.css": "/19-employee-directory/static/css/2.150d169a.chunk.css",
-    "static/js/2.1fa49ddd.chunk.js": "/19-employee-directory/static/js/2.1fa49ddd.chunk.js",
-    "static/js/2.1fa49ddd.chunk.js.map": "/19-employee-directory/static/js/2.1fa49ddd.chunk.js.map",
-    "static/js/3.30460259.chunk.js": "/19-employee-directory/static/js/3.30460259.chunk.js",
-    "static/js/3.30460259.chunk.js.map": "/19-employee-directory/static/js/3.30460259.chunk.js.map",
+    "static/js/2.61142461.chunk.js": "/19-employee-directory/static/js/2.61142461.chunk.js",
+    "static/js/2.61142461.chunk.js.map": "/19-employee-directory/static/js/2.61142461.chunk.js.map",
+    "static/js/3.00626d9b.chunk.js": "/19-employee-directory/static/js/3.00626d9b.chunk.js",
+    "static/js/3.00626d9b.chunk.js.map": "/19-employee-directory/static/js/3.00626d9b.chunk.js.map",
     "index.html": "/19-employee-directory/index.html",
     "static/css/2.150d169a.chunk.css.map": "/19-employee-directory/static/css/2.150d169a.chunk.css.map",
     "static/css/main.8c8b27cf.chunk.css.map": "/19-employee-directory/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.1fa49ddd.chunk.js.LICENSE.txt": "/19-employee-directory/static/js/2.1fa49ddd.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/19-employee-directory/static/media/logo.6ce24c58.svg"
+    "static/js/2.61142461.chunk.js.LICENSE.txt": "/19-employee-directory/static/js/2.61142461.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.545fb204.js",
+    "static/js/runtime-main.3d03b574.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.1fa49ddd.chunk.js",
+    "static/js/2.61142461.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.2ff57767.chunk.js"
+    "static/js/main.64ac3647.chunk.js"
   ]
 }
