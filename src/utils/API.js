@@ -4,7 +4,7 @@ const BASEURL = "https://randomuser.me/api/?results=100";
 // const APIKEY = "";
 
 const API = {
- getEmployees function () {
+ getEmployees: function () {
     return axios.get(BASEURL);
   },
 };
