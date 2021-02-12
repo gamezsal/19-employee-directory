@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Wrapper>
         <Header />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/19-employee-directory" component={Home} />
       </Wrapper>
     </Router>
   );
