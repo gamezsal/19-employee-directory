@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const BASEURL = "https://randomuser.me/api/?results=25";
-// const APIKEY = "";
+const BASEURL = "https://randomuser.me/api/?results=20&nat=us";
+
 
 const API = {
  getEmployees: function () {

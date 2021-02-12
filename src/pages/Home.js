@@ -9,10 +9,8 @@ class Home extends Component {
 
   componentDidMount() {
     API.getEmployees()
-    .then((res) => {
-      this.setState({ results: res.data.results });
-      console.log(res.data.results);
-    });
+      .then((res) => this.setState({ results: res.data.results }))
+      .catch((err) => console.log(err));
   }
 
   render() {
