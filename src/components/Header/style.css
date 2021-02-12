@@ -1,0 +1,6 @@
+.border-thick {
+    padding-top: 20px;
+    border-width:15px !important;
+    height: 170px;
+    color:white;
+}
