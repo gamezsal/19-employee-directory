@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASEURL = "https://randomuser.me/api/?results=100";
+const BASEURL = "https://randomuser.me/api/?results=25";
 // const APIKEY = "";
 
 const API = {
@@ -9,4 +9,4 @@ const API = {
   },
 };
 
-export default API
+export default API;
