@@ -7,7 +7,6 @@ function Header() {
     <div className="container-fluid text-center bg-dark border-bottom border-danger border-thick">
       <h1>Employee Directory</h1>
       <br />
-      <Search />
     </div>
   );
 }
