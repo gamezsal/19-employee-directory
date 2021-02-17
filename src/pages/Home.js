@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Table from "../components/Table";
-import Search from "../components/Search";
+// import Search from "../components/Search";
 import API from "../utils/API";
 
 class Home extends Component {
@@ -17,7 +17,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-fluid text-center bg-dark border-bottom border-thick">
         <form>
           <label>
             <input

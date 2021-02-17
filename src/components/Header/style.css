@@ -1,6 +1,6 @@
 .border-thick {
-    padding-top: 20px;
+    padding-top: 25px;
     border-width:15px !important;
-    height: 170px;
-    color:white;
+    height: 125px;
+    color:rgb(224, 219, 219);
 }

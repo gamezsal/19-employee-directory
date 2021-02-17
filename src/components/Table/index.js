@@ -12,8 +12,11 @@ function Table({ results, nameFilter="" }) {
 
   return (
     <table className="table">
-      <thead className="thead-dark">
+      <thead className="">
         <tr>
+        <th scope="col">
+            <button type="button">Profile Photo</button>
+          </th>
           <th scope="col">
             <button type="button">Name</button>
           </th>
