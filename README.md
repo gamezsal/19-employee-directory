@@ -56,6 +56,8 @@ You are required to submit the following:
 * the URL to the Github repository: https://github.com/gamezsal/19-employee-directory
 
 
-## Live Deployment Demo
+## Live Deployment Recorded Demo
 
 https://drive.google.com/file/d/1JFtVH9jrCbsE7g9lcoOE7ShYVOeYwV2R/view
+
+![](public/React.gif)
