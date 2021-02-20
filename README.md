@@ -55,6 +55,11 @@ You are required to submit the following:
 
 * the URL to the Github repository: https://github.com/gamezsal/19-employee-directory
 
+## Usage
+
+  * Sort the table by first name.
+
+  * Filter the users by first name. 
 
 ## Live Deployment Recorded Demo
 
