@@ -4,3 +4,10 @@
     height: 125px;
     color:rgb(224, 219, 219);
 }
+
+.border-thin {
+    padding-top: 25px;
+    border-width:15px !important;
+    height: 125px;
+    color:rgb(224, 219, 219);
+}
