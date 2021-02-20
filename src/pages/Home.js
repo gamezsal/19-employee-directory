@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Table from "../components/Table";
-// import Search from "../components/Search";
 import API from "../utils/API";
 
 class Home extends Component {
@@ -29,7 +28,7 @@ class Home extends Component {
               }}
             />
           </label>
-          {/* <input className="submitBtn" type="submit" value="Submit" /> */}
+         
         </form>
         {this.state.results.length ? (
           <Table
