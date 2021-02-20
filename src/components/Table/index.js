@@ -16,33 +16,6 @@ function Table({ results, setResults, nameFilter="" }) {
     })
   }
 
-  // function Ascending() {
-  //   const ascending = [...results].sort((a, b) => {
-  //     if (a.name.first < b.name.first) return -1;
-  //     if (b.name.first < a.name.first) return 1;
-  //     return 0;
-  //   })
-  //   setResults(ascending)
-  //   // console.log(ascending)
-  // }
-
-  // function Descending() {
-  //   const decending = [...results].sort((a, b) => {
-  //     if (a.name.first < b.name.first) return -1;
-  //     if (b.name.first < a.name.first) return 1;
-  //     return 0;
-  //   }).reverse();
-  //   setResults(decending)
-  //   // console.log(decending)
-  // }
-
-  // function Toggle() {
-  //   sortDirection ? Descending():Ascending()
-  //   setSync(!sortDirection)
-  // }
-
-  console.log(results, sortDirection)
-
   return (
     <table className="table">
       <thead className="">
