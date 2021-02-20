@@ -29,11 +29,12 @@ class Home extends Component {
               }}
             />
           </label>
-          <input className="submitBtn" type="submit" value="Submit" />
+          {/* <input className="submitBtn" type="submit" value="Submit" /> */}
         </form>
         {this.state.results.length ? (
           <Table
             results={this.state.results}
+            setResults={(results) => this.setState({...this.state, results}) }
             nameFilter={this.state.nameFilter}
           />
         ) : (

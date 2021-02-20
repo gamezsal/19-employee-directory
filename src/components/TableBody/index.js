@@ -2,7 +2,7 @@ import React from "react";
 
 function TableBody(props) {
   const { result, index } = props;
-  console.log(result);
+  
   return (
     <tr key={index}>
       <td>

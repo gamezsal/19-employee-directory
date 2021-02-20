@@ -1,14 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import TableBody from "../TableBody";
 import "./style.css";
 
-function Table({ results, nameFilter="" }) {
+function Table({ results, setResults, nameFilter="" }) {
+  const [sortDirection, setSortDirection ] = useState(0);
+
   nameFilter=new RegExp(nameFilter, "i")
-  results.sort((a, b) => {
-    if (a.name.first < b.name.first) return -1;
-    if (b.name.first < a.name.first) return 1;
-    return 0;
-  });
+  results=results ?.filter((result, index) => nameFilter.test(result.name.first))
+
+  if (sortDirection) {
+    results.sort((a, b) => {
+      if (a.name.first < b.name.first) return -sortDirection;
+      if (b.name.first < a.name.first) return sortDirection;
+      return 0;
+    })
+  }
+
+  // function Ascending() {
+  //   const ascending = [...results].sort((a, b) => {
+  //     if (a.name.first < b.name.first) return -1;
+  //     if (b.name.first < a.name.first) return 1;
+  //     return 0;
+  //   })
+  //   setResults(ascending)
+  //   // console.log(ascending)
+  // }
+
+  // function Descending() {
+  //   const decending = [...results].sort((a, b) => {
+  //     if (a.name.first < b.name.first) return -1;
+  //     if (b.name.first < a.name.first) return 1;
+  //     return 0;
+  //   }).reverse();
+  //   setResults(decending)
+  //   // console.log(decending)
+  // }
+
+  // function Toggle() {
+  //   sortDirection ? Descending():Ascending()
+  //   setSync(!sortDirection)
+  // }
+
+  console.log(results, sortDirection)
 
   return (
     <table className="table">
@@ -18,7 +51,14 @@ function Table({ results, nameFilter="" }) {
             <button type="button">Profile Photo</button>
           </th>
           <th scope="col">
-            <button type="button">Name</button>
+            <button type="button" onClick={() => {
+              if (sortDirection)  {
+                setSortDirection(-sortDirection)
+              }else {
+                setSortDirection(1);
+              }
+
+            }}>Name</button>
           </th>
           <th scope="col">
             <button type="button">Date of Birth</button>
@@ -32,10 +72,8 @@ function Table({ results, nameFilter="" }) {
         </tr>
       </thead>
       <tbody>
-        {results
-          ?.filter((result, index) => nameFilter.test(result.name.first))
-          .map((result, index) => (
-            <TableBody result={result} index={index} />
+        {results.map((result, index) => (
+            <TableBody key={index} result={result} index={index} />
           ))}
       </tbody>
     </table>
